@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wheel svg {
+  border: 1px solid blue;
+  border-radius: 50%;
+}
+.wheel {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 500px;
+  height: 500px;
+}
